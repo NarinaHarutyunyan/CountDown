@@ -1,0 +1,41 @@
+body{
+    background-image:url("../img/chasi-610x300.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+h1{
+    text-align: end;
+    margin-top: 180px;
+    color:#0A283D;
+}
+
+.timeBox{
+    text-align: center;   
+    font-size: 27px;
+    display: flex;
+    justify-content: right; 
+    align-items: center;
+    .allBoxes{
+        border: 1px solid #0A283D;   
+        width: 100px;
+        height: 100px;    
+        padding: 20px;
+        margin: 5px;
+        color: #0A283D;
+        font-weight: bold;
+        border-radius: 50%;
+        background-image:url("../img/chasi-610x300.jpg");       
+        background-size: cover; 
+        background-position:right;
+      
+
+        p{
+            color:#A5B7BE;            
+            font-family: sans-serif;
+            font-size: 15px;
+            
+            
+        }
+    }
+}
